@@ -192,7 +192,6 @@ form {
     flex: 1 1 100%;
     position: relative;
     height: 100vh;
-    background-image: url(/img/photo1.jpeg);
     object-fit: contain;
     z-index: 0;
     justify-content: center;
@@ -272,6 +271,7 @@ form {
     z-index: -2;
     clear: both;
     background-image: url(/img/photo1.jpeg);
+    background-size: cover;
 }
 
 .nav-background {
