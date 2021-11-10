@@ -147,23 +147,23 @@
                         your information so that we can get back to you as soon as possible!</p>
                 </div>
                 <div class="form">
-                    <form method="post" name="contact_form" data-netlify="true">
+                    <form method="post" name="contact_form" action="contact-form-handler.php">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="First name" name="firstname" value="First Name">
+                                <input type="text" class="form-control" placeholder="First name" name="firstname">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" name="lastname" value="Last Name">
+                                <input type="text" class="form-control" placeholder="Last name" name="lastname">
                             </div>
                         </div>
                         <p>&nbsp;</p>
                         <div class="row">
                             <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Email" name="email" value="Email"></div>
+                                    placeholder="Email" name="email"></div>
                         </div>
                         <p>&nbsp;</p>
                         <div class="row">
-                            <div class="col"><textarea placeholder="Message"  value="message" id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
+                            <div class="col"><textarea placeholder="Message"  id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
                         </div>
                         <p>&nbsp;</p>
                         <button type="submit" class="btn btn-danger"

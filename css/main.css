@@ -6,6 +6,18 @@
     src: url("https://db.onlinewebfonts.com/t/736cf5b08b01082a3645e14038868e20.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/736cf5b08b01082a3645e14038868e20.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/736cf5b08b01082a3645e14038868e20.woff") format("woff"), url("/fonts/Krungthep/Krungthep.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/736cf5b08b01082a3645e14038868e20.svg#Krungthep") format("svg");
 }
 
+@font-face {
+    font-family: "Arboria-Book";
+    src: url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.eot");
+    src: url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.woff") format("woff"), url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1c7f14203d028f1c6f8914508f469cb9.svg#Arboria-Book") format("svg");
+}
+
+@font-face {
+    font-family: "Arboria-Bold";
+    src: url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.eot");
+    src: url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.woff") format("woff"), url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/be167b60b37c7f9cd47a1b0fdb248cf5.svg#Arboria-Bold") format("svg");
+}
+
 
 /* Brand Stylings */
 :root {
@@ -16,7 +28,7 @@
 
 /* Fonts */
 h1 {
-    font-family: Krungthep !important;
+    font-family: Arboria-Bold !important;
     font-size: 24px;
     text-transform: uppercase;
     font-style: normal;
@@ -26,7 +38,7 @@ h1 {
 }
 
 h2 {
-    font-family: Krungthep !important;
+    font-family: Arboria-Bold !important;
     font-size: 20px;
     text-transform: uppercase;
     font-style: bold;
@@ -36,7 +48,7 @@ h2 {
 }
 
 h3 {
-    font-family: Krungthep !important;
+    font-family: Arboria-Book !important;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
@@ -45,7 +57,7 @@ h3 {
 }
 
 h4 {
-    font-family: Krungthep !important;
+    font-family: Arboria-Book !important;
     font-size: 14px;
     font-style: normal;
     font-variant: normal;
