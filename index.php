@@ -11,11 +11,11 @@
     <title>Advanced Reality Gaming - We bring the game to you</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link href="//db.onlinewebfonts.com/c/736cf5b08b01082a3645e14038868e20?family=Krungthep" rel="stylesheet"
         type="text/css" />
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/slideshow.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
