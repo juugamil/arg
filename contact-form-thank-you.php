@@ -53,9 +53,9 @@
         <div class="hero-overlay">
             <div class="hero-text">
                 <div class="container">
-                    <h1 style="color: var(--brand-color); font-weight: 700;">Advanced Reality Gaming</h1>
+                    <h1 style="color: var(--brand-color); font-weight: 700;">Thank you for your submission</h1>
                     <p></p>
-                    <h4 style="color: var(--brand-color-2); font-weight: 300;">We bring the games to you</h4>
+                    <h4 style="color: var(--brand-color-2); font-weight: 300;">We will respond to your message as soon as possible</h4>
                 </div>
                 <p>&nbsp;</p>
                 <button type="submit" class="btn btn-danger"
@@ -70,109 +70,6 @@
                 <source src="" type="video/mp4">
             </div>
         </div>
-
-        <a name="about"></a>
-        <div class="cards">
-            <div class="container">
-                <h2 style="text-align:center">Let us host your next celebration!</h2>
-                <p>Advanced Reality Gaming is a full-service mobile video game party truck. Game Trailers are the
-                    perfect addition to all events including birthday parties, school events and church fairs. We serve
-                    the greater D.C., Virginia and Maryland areas.</p>
-            </div>
-
-        </div>
-
-        <a name="photos"></a>
-
-        <div class="container-fluid" style="padding: 0%;">
-            <div class="picContainer">
-                <div id="info"></div>
-                <div id="image1" class="img">
-                    <img src="img/photo1.jpeg" />
-                </div>
-                <div id="image2" class="img">
-                    <img src="img/photo2.jpeg" />
-                </div>
-                <div id="image3" class="img">
-                    <img src="img/photo3.jpeg" />
-                </div>
-                <div id="image4" class="img">
-                    <img src="img/photo4.jpeg" />
-                </div>
-                <div class="left" onclick="left()"></div>
-                <div class="right" onclick="right()"></div>
-                <div class="dots">
-                    <div class="dot a1"></div>
-                    <div class="dot a2"></div>
-                    <div class="dot a3"></div>
-                    <div class="dot a4"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="cards-burg">
-            <div class="container">
-                <div class="card-text">
-                    <h2 style="text-align:center">A total gaming experience</h2>
-                    <p>
-                        ARG provides a unique experience for our customers to engage in their passion for video games
-                        with people they enjoy. With multiple consoles, video games and the opportunity to engage in a
-                        Virtual Reality experience, our customers can compete and engage in their favorite games
-                        together, either online or offline!
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <a name="book"></a>
-        <div class="cards">
-            <div class="container">
-                <div class="card-text">
-                    <h2 style="text-align:center">Book now</h2>
-                    <p>Schedule your Advanced Reality Gaming Experience now and prepare to have fun!</p>
-                    <p>&nbsp;</p>
-                    <div class="book-button"><button type="submit" class="btn btn-danger"
-                            style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <a name="contact"></a>
-        <div class="cards-burg">
-            <div class="container">
-                <div class="card-text">
-                    <h2 style="text-align:center">Contact Us</h2>
-                    <p>If you have any questions regarding the Advanced Reality Gaming Experience feel free to leave
-                        your information so that we can get back to you as soon as possible!</p>
-                </div>
-                <div class="form">
-                    <form method="post" name="contact_form" action="contact-form-handler.php">
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name" name="firstname">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" name="lastname">
-                            </div>
-                        </div>
-                        <p>&nbsp;</p>
-                        <div class="row">
-                            <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Email" name="email"></div>
-                        </div>
-                        <p>&nbsp;</p>
-                        <div class="row">
-                            <div class="col"><textarea placeholder="Message"  id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
-                        </div>
-                        <p>&nbsp;</p>
-                        <button type="submit" class="btn btn-danger"
-                            style="background-color: var(--brand-color-2); border: none;">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
 
 
         <div class="footer">

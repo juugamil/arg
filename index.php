@@ -147,7 +147,7 @@
                         your information so that we can get back to you as soon as possible!</p>
                 </div>
                 <div class="form">
-                    <form method="post" name="contact_form" data-netlify="true">
+                    <form method="post" name="contact_form">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="First name" name="firstname" value="First Name">
