@@ -392,6 +392,10 @@ form {
     padding: 3%;
 }
 
+.social-icons img {
+    width: 5vw;
+}
+
 
 .sub-card {
     background-color: var(--brand-color-2);
@@ -631,6 +635,10 @@ form {
 
     .picContainer {
         height: 35vh !important;
+    }
+
+    .social-icons img {
+        width: 30vw;
     }
 
 

@@ -213,12 +213,13 @@ if(isset($_POST['submit'])){
                 </div>
                 <div class="social-icons row" style="display: flex; z-index:2;">
                     <div class="social-icons" style="display: flex; object-fit:contain; height: auto;">
-                        <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png" style="width: 5vw;"></a>
+                        <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png"></a>
                     </div>
                     <div class="social-icons" style="display: flex; object-fit:contain; height: auto;">
-                        <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png" style="width: 5vw;"></a>
+                        <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png"></a>
                     </div>
                 </div>
+                <p>&nbsp;</p>
             </div>
         </div>
 
