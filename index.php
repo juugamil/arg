@@ -213,10 +213,10 @@ if(isset($_POST['submit'])){
                 </div>
                 <div class="social-icons">
                     <div class="social-link">
-                        <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="https://www.flaticon.com/premium-icon/facebook_2168281?term=social%20media&page=1&position=5&page=1&position=5&related_id=2168281&origin=tag"></a>
+                        <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png"></a>
                     </div>
                     <div class="social-link">
-                        <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="https://www.flaticon.com/free-icon/instagram_1384015?term=social%20media&page=1&position=11&page=1&position=11&related_id=1384015&origin=tag"></a>
+                        <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png"></a>
                     </div>
                 </div>
             </div>
