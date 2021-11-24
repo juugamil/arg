@@ -1,3 +1,23 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "devantebatts@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['firstname'];
+    $last_name = $_POST['lastname'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -149,7 +169,7 @@
                         your information so that we can get back to you as soon as possible!</p>
                 </div>
                 <div class="form">
-                    <form method="post" name="contact_form" action="/secure_email_code.php">
+                    <form method="post" name="contact_form" action="">
                         <div class="row">
                             <div class="col">
                                 <input type="text" class="form-control" placeholder="First name" name="firstname">
@@ -168,7 +188,7 @@
                             <div class="col"><textarea placeholder="Message" id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
                         </div>
                         <p>&nbsp;</p>
-                        <button type="submit" class="btn btn-danger"
+                        <button type="submit" input type="submit" class="btn btn-danger"
                             style="background-color: var(--brand-color-2); border: none;">Submit</button>
                     </form>
                 </div>
