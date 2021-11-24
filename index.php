@@ -212,10 +212,10 @@ if(isset($_POST['submit'])){
                     <p>© 2021 Advanced Reality Gaming <br /> All Rights Reserved.</p>
                 </div>
                 <div class="social-icons">
-                    <div class="social-link">
+                    <div class="social-link" style="display: flex; object-fit:contain;">
                         <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png"></a>
                     </div>
-                    <div class="social-link">
+                    <div class="social-link" style="display: flex; object-fit:contain;">
                         <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png"></a>
                     </div>
                 </div>
