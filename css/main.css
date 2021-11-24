@@ -186,7 +186,7 @@ a:active {
     background-color: var(--brand-color);
     color: white;
     height: auto;
-    padding: 5%;
+    padding: 0;
     position: relative;
 }
 
