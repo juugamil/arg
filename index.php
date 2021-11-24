@@ -188,8 +188,8 @@ if(isset($_POST['submit'])){
                             <div class="col"><textarea placeholder="Message" id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
                         </div>
                         <p>&nbsp;</p>
-                        <button type="submit" input type="submit" class="btn btn-danger"
-                            style="background-color: var(--brand-color-2); border: none;">Submit</button>
+                        <input type="submit" name="submit"  value="Submit" class="btn btn-danger"
+                            style="background-color: var(--brand-color-2); border: none;">
                     </form>
                 </div>
             </div>
