@@ -58,10 +58,12 @@
                     <h4 style="color: var(--brand-color-2); font-weight: 300;">We bring the games to you</h4>
                 </div>
                 <p>&nbsp;</p>
-                <button type="submit" class="btn btn-danger"
-                    style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book
-                    with
-                    us</button>
+                <a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/">
+                    <button type="submit" class="btn btn-danger"
+                        style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book
+                        with
+                        us</button>
+                </a>
             </div>
         </div>
 
@@ -131,8 +133,8 @@
                     <h2 style="text-align:center">Book now</h2>
                     <p>Schedule your Advanced Reality Gaming Experience now and prepare to have fun!</p>
                     <p>&nbsp;</p>
-                    <div class="book-button"><button type="submit" class="btn btn-danger"
-                            style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button>
+                    <div class="book-button"><a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/"> <button type="submit" class="btn btn-danger"
+                                style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button></a>
                     </div>
                 </div>
             </div>
