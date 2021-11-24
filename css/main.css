@@ -137,7 +137,7 @@ a:active {
     z-index: 1;
 }
 
-.cards-abs{
+.cards-abs {
     color: white;
     display: flex;
     position: absolute;
@@ -147,7 +147,6 @@ a:active {
     height: auto;
     background-color: var(--brand-color);
     padding: 5%;
-    position: relative;  
 }
 
 .cards-burg {
@@ -457,6 +456,18 @@ form {
         height: auto;
         padding: 5%;
         position: relative;
+    }
+
+    .cards-abs {
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        flex-direction: column;
+        height: auto;
+        background-color: var(--brand-color);
+        padding: 5%;  
     }
 
     .cards-burg {
