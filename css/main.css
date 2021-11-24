@@ -501,7 +501,7 @@ form {
         flex-direction: row;
         background-color: var(--brand-color);
         color: white;
-        height: 20vh;
+        height: auto;
         padding: 5%;
         position: relative;
     }
@@ -638,7 +638,7 @@ form {
     }
 
     .social-icons > a > img {
-        width: 30vw;
+        width: 10vw;
     }
 
 
