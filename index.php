@@ -219,7 +219,6 @@ if(isset($_POST['submit'])){
                         <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png"></a>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
         </div>
 
