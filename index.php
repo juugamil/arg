@@ -76,10 +76,10 @@ if(isset($_POST['submit'])){
                 <div class="container">
                     <h1 style="color: var(--brand-color); font-weight: 700;">Advanced Reality Gaming</h1>
                     <p></p>
-                    <h4 style="color: var(--brand-color-2); font-weight: 300;">We bring the games to you</h4>
+                    <h4 style="color: var(--brand-color); font-weight: 300;">We bring the games to you</h4>
                 </div>
                 <p>&nbsp;</p>
-                <a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/">
+                <a href="https://advancedrealitygaming.ourers.com/">
                     <button type="submit" class="btn btn-danger"
                         style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book
                         with
@@ -152,9 +152,9 @@ if(isset($_POST['submit'])){
             <div class="container">
                 <div class="card-text">
                     <h2 style="text-align:center">Book now</h2>
-                    <p>Schedule your Advanced Reality Gaming Experience now and prepare to have fun!</p>
+                    <p style="text-align: center;">Schedule your Advanced Reality Gaming Experience now and prepare to have fun!</p>
                     <p>&nbsp;</p>
-                    <a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/"><div class="book-button"><button type="submit" class="btn btn-danger"
+                    <a href="https://advancedrealitygaming.ourers.com/"><div class="book-button"><button type="submit" class="btn btn-danger"
                                 style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button>
                     </div></a>
                 </div>
@@ -210,6 +210,14 @@ if(isset($_POST['submit'])){
                 </div>
                 <div class="sub-line">
                     <p>© 2021 Advanced Reality Gaming <br /> All Rights Reserved.</p>
+                </div>
+                <div class="social-icons">
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="https://www.flaticon.com/premium-icon/facebook_2168281?term=social%20media&page=1&position=5&page=1&position=5&related_id=2168281&origin=tag"></a>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="https://www.flaticon.com/free-icon/instagram_1384015?term=social%20media&page=1&position=11&page=1&position=11&related_id=1384015&origin=tag"></a>
+                    </div>
                 </div>
             </div>
         </div>
