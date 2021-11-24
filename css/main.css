@@ -495,9 +495,9 @@ form {
         align-items: center;
         display: flex;
         flex-direction: row;
-        background-color: black;
+        background-color: var(--brand-color);
         color: white;
-        height: auto;
+        height: 20vh;
         padding: 5%;
         position: relative;
     }
