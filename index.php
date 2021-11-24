@@ -169,6 +169,7 @@
                         <button type="submit" class="btn btn-danger"
                             style="background-color: var(--brand-color-2); border: none;">Submit</button>
                     </form>
+                    <?php include "secure_email_code.php"?>
                 </div>
             </div>
         </div>
