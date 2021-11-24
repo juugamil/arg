@@ -133,9 +133,9 @@
                     <h2 style="text-align:center">Book now</h2>
                     <p>Schedule your Advanced Reality Gaming Experience now and prepare to have fun!</p>
                     <p>&nbsp;</p>
-                    <div class="book-button"><a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/"> <button type="submit" class="btn btn-danger"
-                                style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button></a>
-                    </div>
+                    <a href="https://allamerican-mobilegaming.ourers.com/category/book_game_trailer_now/"><div class="book-button"><button type="submit" class="btn btn-danger"
+                                style="width: 50%; align-self: center; background-color: var(--brand-color); border: none;">Book</button>
+                    </div></a>
                 </div>
             </div>
         </div>
@@ -149,29 +149,28 @@
                         your information so that we can get back to you as soon as possible!</p>
                 </div>
                 <div class="form">
-                    <form method="post" name="contact_form">
+                    <form method="post" name="contact_form" action="/secure_email_code.php">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="First name" name="firstname" value="First Name">
+                                <input type="text" class="form-control" placeholder="First name" name="firstname">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name" name="lastname" value="Last Name">
+                                <input type="text" class="form-control" placeholder="Last name" name="lastname">
                             </div>
                         </div>
                         <p>&nbsp;</p>
                         <div class="row">
                             <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Email" name="email" value="Email"></div>
+                                    placeholder="Email" name="email"></div>
                         </div>
                         <p>&nbsp;</p>
                         <div class="row">
-                            <div class="col"><textarea placeholder="Message"  value="message" id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
+                            <div class="col"><textarea placeholder="Message" id="exampleFormControlTextarea2" rows="3" name="message" style="width: 100%;"></textarea></div>
                         </div>
                         <p>&nbsp;</p>
                         <button type="submit" class="btn btn-danger"
                             style="background-color: var(--brand-color-2); border: none;">Submit</button>
                     </form>
-                    <?php include "secure_email_code.php"?>
                 </div>
             </div>
         </div>
