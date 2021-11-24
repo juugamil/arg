@@ -211,11 +211,11 @@ if(isset($_POST['submit'])){
                 <div class="sub-line">
                     <p>© 2021 Advanced Reality Gaming <br /> All Rights Reserved.</p>
                 </div>
-                <div class="social-row" style="display: flex;">
-                    <div class="social-icons" style="display: flex; object-fit:contain;">
+                <div class="social-icons row" style="display: flex;">
+                    <div class="social-icons" style="display: flex; object-fit:contain; width: 20vw; height: auto;">
                         <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png"></a>
                     </div>
-                    <div class="social-icons" style="display: flex; object-fit:contain;">
+                    <div class="social-icons" style="display: flex; object-fit:contain; width: 20vw; height: auto;">
                         <a href="https://www.instagram.com/advancedrealitygaming/?hl=en"><img src="/img/instagram-icon.png"></a>
                     </div>
                 </div>
