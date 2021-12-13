@@ -211,9 +211,11 @@ if(isset($_POST['submit'])){
                 <div class="sub-line">
                     <p>© 2021 Advanced Reality Gaming <br /> All Rights Reserved.</p>
                 </div>
+                <p>&nbsp;</p>
                 <div class="credit-card row">
                         <img src="/img/credit-card-processors.jpeg">
                     </div>
+                    <p>&nbsp;</p>
                 <div class="social-icons row" style="display: flex; z-index:2;">
                     <div class="social-icons" style="display: flex; object-fit:contain; height: auto;">
                         <a href="https://www.facebook.com/AdvancedRealityGaming/"><img src="/img/facebook-icon.png"></a>
