@@ -175,6 +175,14 @@ a:active {
     align-content: center;
 }
 
+.credit-card {
+    display: flex;
+}
+
+.credit-card > img {
+    width: 50%;
+}
+
 .f-link {
     display: flex;
 }

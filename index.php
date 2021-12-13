@@ -208,7 +208,7 @@ if(isset($_POST['submit'])){
                         <p>Terms of Service</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="credit-card row">
                         <img src="/img/credit-card-processors.jpeg">
                     </div>
                 <div class="sub-line">
