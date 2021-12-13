@@ -208,6 +208,9 @@ if(isset($_POST['submit'])){
                         <p>Terms of Service</p>
                     </div>
                 </div>
+                <div class="row">
+                        <img src="/img/credit-card-processors.jpeg">
+                    </div>
                 <div class="sub-line">
                     <p>© 2021 Advanced Reality Gaming <br /> All Rights Reserved.</p>
                 </div>
