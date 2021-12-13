@@ -177,10 +177,11 @@ a:active {
 
 .credit-card {
     display: flex;
+    justify-content: center;
 }
 
 .credit-card > img {
-    width: 50%;
+    width: 30%;
 }
 
 .f-link {
@@ -497,6 +498,10 @@ form {
         height: auto;
         background-color: black;
         position: relative;
+    }
+
+    .credit-card > img {
+        width: 50%;
     }
 
     .f-link {
